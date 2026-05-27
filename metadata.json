@@ -1,0 +1,6 @@
+{
+  "name": "Captain Assistant",
+  "description": "Helper app for Bengaluru taxi & auto Captains. See busy areas with lots of passengers, check expected earnings, and find active passenger requests nearby.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
