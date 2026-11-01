@@ -1,4 +1,5 @@
-# RapidoGuard Pro 🛵 • Geospatial Mobility Intelligence
+# RapidoGuard Pro 🛵 
+• Geospatial Mobility Intelligence
 
 An enterprise-grade, full-stack **Geospatial Mobility Intelligence & Predictive Dispatch Prototype** designed for taxi, bike-taxi, and auto captains. 
 
@@ -75,6 +76,6 @@ Leverages the **Gemini 2.5 Flash** server-side model to analyze multi-variable t
 ---
 
 
-**GitHub Repository / Live Preview**: [Insert Your Repo Link]
+**Live Preview**: [](https://captain-assistant.onrender.com)
 
 #Geospatial #SystemDesign #SoftwareEngineering #StartupEngineering #PredictiveAnalytics #ReactJS #NodeJS #SystemArchitecture #UberEngineering #GIS
