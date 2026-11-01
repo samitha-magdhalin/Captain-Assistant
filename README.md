@@ -74,56 +74,6 @@ Leverages the **Gemini 2.5 Flash** server-side model to analyze multi-variable t
 
 ---
 
-## 💻 How to Demonstrate this to Your Clients
-
-This prototype is built to impress clients during interactive live reviews and sales pitches. **It compiles and runs 100% out of the box with zero external configuration or API charges.**
-
-### Step-by-Step Launch Blueprint
-
-1.  **Dependencies Setup**:
-    ```bash
-    npm install
-    ```
-2.  **Compile & Bundle Production Assets**:
-    Our custom build scripts use `esbuild` to compile both the frontend assets and the Express server into a highly optimized, self-contained `dist/server.cjs` file, bypassing ES modules path checks completely:
-    ```bash
-    npm run build
-    ```
-3.  **Boot the Prototype**:
-    ```bash
-    npm run start
-    ```
-4.  **Client Interactive Demo Route**:
-    *   Open `http://localhost:3000` in the browser.
-    *   **The Interactive Control Center**: Click through temporal presets like *"Evening Rush (18:00)"* and weather layers like *"Monsoon Jam (Rain)"*. Show the client how the entire GIS map, active surge multiplier numbers, safety warnings, and active coordinate nodes recalculate instantly!
-    *   **Explainable AI**: Click on different zones in the left map sidebar. Show the client that it explains *exactly why* the prediction stands (e.g. "Waterlog on Outer Ring Road, speed reduced to 14 km/h, passenger phone bookings elevated by 35%").
-
----
-
-## 🔗 Elevate Your Professional Brand (LinkedIn Template)
-
-This project showcases specialized backend systems architecture, geospatial modeling, and frontend product execution. **Here is a highly professional draft you can use to share this project on LinkedIn:**
-
-***
-
-### 📝 LinkedIn Post Draft
-
-**Subject**: Bridging the Gap in Mobility Dispatch: A Full-Stack Predictive Ride-Sharing Prototype 🛵📈
-
-We talk a lot about "real-time grid optimization" in ride-sharing, but what does it take to make live geospatial forecasts truly actionable for drivers in highly clogged cities like Bengaluru?
-
-To tackle empty cruising times, high passenger cancellations, and supply imbalances during sudden monsoon downpours, I built **RapidoGuard Pro** — a full-stack, enterprise-grade driver assistance advisor and predictive dispatch engine prototype. 
-
-Rather than displaying static, random "hotspots", the prototype models complex urban flows and provides explainable spatial advice.
-
-**🔑 Key Engineering Highlights:**
-1. **Event-Driven Synthetic Mobility Simulation**: Models real-time demand fluctuations using hour-of-day temporal cycles, weekend seasonality, and severe rain weather obstacles (which dynamically trigger waterlogging warnings and drop traffic speeds to 12 km/h).
-2. **Markov Chain Predictive Modeling**: Computes consecutive coordinate transitions based on historical driver log matrices (`rides.csv`) to calculate the probability vectors of the next passenger check-ins.
-3. **Multi-Agent Captain Crowding Sensors**: Simulates competing driver supply grids. When driver density rises too high in a hot zone, the system alerts the driver with a crowding warning to prevent earnings cannibalization.
-4. **Dispatch Decision Engine**: Translates predictive heatmaps into direct economic logic, evaluating the mathematical Expected Opportunity Cost of standing standby and displaying live Peak Yield Multipliers.
-5. **Grounded Explainable Advice**: Features server-side LLM orchestration to contextualize raw GIS data into simple, actionable navigation advice.
-
-This prototype demonstrates how localized, high-fidelity synthetic mobility models, clean math pipelines, and interactive operational mapping can bridge the gap between heavy algorithms and driver productivity.
 
 **GitHub Repository / Live Preview**: [Insert Your Repo Link]
 
